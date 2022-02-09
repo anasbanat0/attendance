@@ -1,5 +1,5 @@
 <?php
-$title = "Home Page";
+$title = "Add Record";
 require_once 'includes/header.php';
 require_once 'db/conn.php';
 if (isset($_POST['submit'])) {
@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
   $phone = $_POST['phone'];
   $specialty = $_POST['specialty'];
   // Call function to insert and track if success or not
-  $isSuccess = $crud->insert($fname, $lname, $dob, $email, $phone, $specialty);
+  $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $phone, $specialty);
   if ($isSuccess) {
     echo '<h1 class="text-center text-success">You have been registered!</h1>';
   } else {
