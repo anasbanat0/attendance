@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Attendance
 Code used for PHP Bootstrap 4 Form and CRUD Application Development Exercises.
 
@@ -15,3 +16,7 @@ Authentication and Authorization
 GitHub
 Heroku
 Is built in part for Udemy/SkillShare/Uthena course entitled: "Complete Core 3.1 and Entity Framework Development"
+=======
+# attendance
+This is my attendance website to organize the attendees for confereneces 
+>>>>>>> 5fbddbcb8cec83e9b2faa964d09f0f54a3ca2b29
